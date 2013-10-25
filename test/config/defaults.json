@@ -1,0 +1,14 @@
+{
+  "generatedDir": "${appRoot}/tmp",
+  "assets": {
+    "defaultNamespace": "default",
+    "viewsDir": "${generatedDir}/views/",
+    "assetsDir": "${generatedDir}/assets/",
+    "publicUrlRoot": "public"
+  },
+  "particles": {
+    "app": {
+      "particles": ["${appRoot}/test/root"]
+    }
+  }
+}
