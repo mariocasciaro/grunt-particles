@@ -2,21 +2,21 @@
   "name": "grunt-particles",
   "description": "Invoke Scatter services from Grunt (and dynamically control its configuration)",
   "version": "0.1.1",
-  "homepage": "https://github.com/mariocasciaro/grunt-particles",
+  "homepage": "https://github.com/particles/grunt-particles",
   "author": {
     "name": "Mario Casciaro"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mariocasciaro/grunt-particles.git"
+    "url": "git://github.com/particles/grunt-particles.git"
   },
   "bugs": {
-    "url": "https://github.com/mariocasciaro/grunt-particles/issues"
+    "url": "https://github.com/particles/grunt-particles/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mariocasciaro/grunt-particles/blob/master/LICENSE-MIT"
+      "url": "https://github.com/particles/grunt-particles/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -40,7 +40,6 @@
   },
   "keywords": [
     "gruntplugin",
-    "scatter",
     "particles"
   ]
 }

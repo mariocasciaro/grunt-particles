@@ -1,6 +1,6 @@
 /*
  * grunt-particles
- * https://github.com/mariocasciaro/grunt-particles
+ * https://github.com/particles/grunt-particles
  *
  * Copyright (c) 2013 Mario Casciaro
  * Licensed under the MIT license.
