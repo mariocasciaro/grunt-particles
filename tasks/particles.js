@@ -16,15 +16,11 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       scatterOptions: {},
-      appRoot: "",
+      appRoot: null,
       configDir: null,
       runServices: null,
       configNamespace: null
     });
-
-    if(!options.appRoot) {
-      grunt.fail.fatal("Must set appRoot option");
-    }
 
     var particlesOptions = {
       runServices: options.runServices,
@@ -33,7 +29,7 @@ module.exports = function(grunt) {
       serviceArgs: [{grunt: grunt}]
     };
 
-    particles.run(options.appRoot, particlesOptions).then(function() {
+    particles.run(particlesOptions).then(function() {
       done();
     }).otherwise(done);
   });

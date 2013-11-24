@@ -27,7 +27,7 @@
     "test": "node_modules/grunt-cli/bin/grunt test"
   },
   "dependencies": {
-    "particles": "~0.1.0"
+    "particles": "~0.1.3"
   },
   "devDependencies": {
     "grunt-cli": "~0.1.9",
