@@ -31,11 +31,13 @@ exports.particles = {
   },
 
   testServiceInvocation: function(test) {
-    test.expect(2);
+    test.expect(4);
 
-    var input = require('./root/testModule').input;
-    test.ok(input);
-    test.ok(input.grunt);
+    var testModule = require('./root/testModule');
+    test.ok(testModule.input);
+    test.ok(testModule.input.grunt);
+    test.ok(testModule.input2);
+    test.ok(testModule.input2.grunt);
 
     test.done();
   }

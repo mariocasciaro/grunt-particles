@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     particles: {
       test: {
         options: {
-          runServices: ['svc|pipeline!testService'],
+          runServices: ['svc|pipeline!testService', 'svc|pipeline!testService2'],
           config: {
             appRoot: __dirname,
             configDir: __dirname + "/test/config"
