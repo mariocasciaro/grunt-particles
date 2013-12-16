@@ -6,8 +6,8 @@
     "assetsDir": "${generatedDir}/assets/",
     "publicUrlRoot": "public"
   },
-  "particles": {
-    "app": {
+  "containers": {
+    "default": {
       "particles": ["${appRoot}/test/root"]
     }
   }

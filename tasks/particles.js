@@ -15,15 +15,12 @@ module.exports = function(grunt) {
     
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
-      scatterOptions: {},
       config: {},
-      runServices: null,
-      configNamespace: null
+      runServices: null
     });
 
     var particlesOptions = {
       runServices: options.runServices,
-      configNamespace: options.configNamespace,
       config: options.config,
       serviceArgs: [{grunt: grunt}]
     };
