@@ -2,7 +2,7 @@
 'use strict';
 
 var path = require('path'),
-  particles = require('particles');
+  Particles = require('particles');
 
 module.exports = function(grunt) {
 
@@ -25,7 +25,8 @@ module.exports = function(grunt) {
       serviceArgs: [{grunt: grunt}]
     };
 
-    particles.run(particlesOptions).then(function() {
+    var app = new Particles(particlesOptions);
+    app.run().then(function() {
       done();
     }).otherwise(done);
   });
