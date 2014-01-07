@@ -16,11 +16,11 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       config: {},
-      runServices: null
+      runService: null
     });
 
     var particlesOptions = {
-      runServices: options.runServices,
+      runService: options.runService,
       config: options.config,
       serviceArgs: [{grunt: grunt}]
     };
