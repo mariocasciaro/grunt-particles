@@ -1,7 +1,7 @@
 {
   "name": "grunt-particles",
   "description": "Invoke Scatter services from Grunt (and dynamically control its configuration)",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "homepage": "https://github.com/particles/grunt-particles",
   "author": {
     "name": "Mario Casciaro"
@@ -27,7 +27,7 @@
     "test": "node_modules/grunt-cli/bin/grunt test"
   },
   "dependencies": {
-    "particles": "~0.1.3"
+    "particles": "~0.2.0"
   },
   "devDependencies": {
     "grunt-cli": "~0.1.9",
