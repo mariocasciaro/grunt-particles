@@ -1,10 +1,10 @@
 {
   "generatedDir": "${appRoot}/tmp",
-  "assets": {
+  "resources": {
     "defaultNamespace": "default",
     "viewsDir": "${generatedDir}/views/",
     "assetsDir": "${generatedDir}/assets/",
-    "publicUrlRoot": "public"
+    "staticUrlRoot": "public"
   },
   "containers": {
     "default": {
